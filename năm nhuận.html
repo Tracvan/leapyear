@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xét Năm Nhuận</title>
+</head>
+<body>
+<p>a</p>
+</body>
+</html>
+<script>
+    let year =parseInt(prompt("Hãy nhập năm bạn cần tìm"));
+    if (year % 4 == 0){
+        if (year %100 ==0){
+            if(year %400 ==0){
+                alert(year + "is a leap year");
+            }else{
+                alert(year+ "is NOT a leap year");
+            }
+        }else{
+            alert(year + "is NOT a leap year");
+        }
+    }
+</script>
